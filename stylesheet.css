@@ -3,7 +3,7 @@
   height: 100px;
   background-color: yellow;
   animation-name: example;
-  animation-duration: 15s;
+  animation-duration: 10s;
   
 }
 @keyframes example {
