@@ -1,0 +1,171 @@
+.title{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  animation-name: example;
+  animation-duration: 15s;
+  
+}
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+  padding-top: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(192, 192, 192,0.95);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 100px;
+  margin-top: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.header-right a {
+  line-height: 100px;
+  padding: 0 25px;
+  color: blue;
+  display: block;
+}
+
+.login {
+  background-color: #57606f;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+.lesson-icon img{
+    width: 100px;
+    height: 100px;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  color: black;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+footer{
+  height:250px;
+  width:100%;
+  background-color:#2f5167;
+  color:#fff;
+  padding-top: 50px;
+}
+
+.footer-logo{
+  float:left;
+  width: 100px;
+  height: 100px;
+}
+.footer-list{
+  float:right;
+}
+.footer-list p{
+  padding-bottom:20px;
+}
